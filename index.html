@@ -4,7 +4,31 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Nicole Tilly : Design, Research, Engineer">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+	<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+	<!--[if gt IE 8]><!-->
+  
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  
+	<!--<![endif]-->
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/pricing.css">
+    <!--<![endif]-->
+  
+	
+    <meta name="description" content="Nicole Tilly : Research, Design, Engineer">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -12,12 +36,19 @@
   </head>
 
   <body>
+  <div class="pure-menu pure-menu-horizontal">
+    <a href="#" class="pure-menu-heading">Nicole Tilly</a>
+    <ul class="pure-menu-list">
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
+		 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Process</a></li>
+        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+    </ul>
+</div>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nictilly">View on GitHub</a>
-
           <h1 id="project_title">Nicole Tilly</h1>
           <h2 id="project_tagline">Design, Research, Engineer</h2>
 
@@ -42,7 +73,6 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
