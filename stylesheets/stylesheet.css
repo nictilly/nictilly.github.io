@@ -8,15 +8,15 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #C6C1C1;
+  color: #AE98A3;
   background: #212121;
 }
 
 a {
-  color: #1e6bb8;
+  color: #6396E3;
   text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+/*   a:hover {
+    text-decoration: underline; } */
 
 .btn {
   display: inline-block;
@@ -233,7 +233,7 @@ a {
   font-weight: bold; }
 
 .site-footer-credits {
-  color: #819198; }
+  color: #93818A; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
@@ -250,6 +250,13 @@ a {
 /*******************************************************************************
 Changes to PURE Base
 *******************************************************************************/
+.pure-img {
+    max-width: 30px; 
+    max-height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
 
 .pure-menu.pure-menu-horizontal {
     white-space: normal;
