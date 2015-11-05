@@ -70,14 +70,14 @@ Resume
 
 **HONORS, AWARDS, AND SOCIETIES**
 
-* Engineering Department Scholarship (2014 – 2016)   |||   *University of Washington, Engineering Department*
+* Engineering Department Scholarship (2014 – 2016) ..... *University of Washington, Engineering Department*
 
-* Game Development Club (2015 – Present)   |||   *University of Washington*
+* Game Development Club (2015 – Present)  .....  *University of Washington*
 
-* Society of Woman Engineers (SWE), Member (2014 – Present)   |||   *University of Washington*
+* Society of Woman Engineers (SWE), Member (2014 – Present)   .....  *University of Washington*
 
-* Osher Re-Entry Scholarship (2014 – 2015)   |||   *University of Washington, Bernard Osher Foundation*
+* Osher Re-Entry Scholarship (2014 – 2015)   ..... *University of Washington, Bernard Osher Foundation*
 
-* English Department Scholarship (2013 – 2014)   |||   *Bellevue College Foundation*
+* English Department Scholarship (2013 – 2014)   ..... *Bellevue College Foundation*
 
-* Phi Theta Kappa Honors Society (2013 – 2014)   |||   *Bellevue College*
+* Phi Theta Kappa Honors Society (2013 – 2014)   .....  *Bellevue College*
