@@ -46,30 +46,38 @@ Resume
 
 **English Tutor**, *Bellevue College*						        		              Mar 2013 – Jun 2014
 
-*Edited and proof-read personal and school-related writing for students
+* Edited and proof-read personal and school-related writing for students
 
-*Helped students understand English grammar, style, and structure
+* Helped students understand English grammar, style, and structure
 
 
 **Server, Bartender, Team Leader, Acting Manager**					              Apr 2008 – Mar 2013
 
-*The Cheesecake Factory (Seattle, WA), Amsterdam Tavern (New York, NY), Sarabeths East (New York, NY), Stout NYC*
+* The Cheesecake Factory (Seattle, WA), Amsterdam Tavern (New York, NY), Sarabeths East (New York, NY), Stout NYC*
 
-*Consistently high sales and tip percentages reflect good customer relations
+* Consistently high sales and tip percentages reflect good customer relations
 
 *Conflict resolution between customers and staff; training for new employees. 
 
 **EDUCATION**
 
 **University of Washington**, *Seattle, WA*									Expected Dec 2016
-*Bachelor of Science: Human-Centered Design & Engineering
+
+* Bachelor of Science: Human-Centered Design & Engineering
+
 **Bellevue College**, *Bellevue, WA*								            Sept 2012 – Aug 2014
 
 
 **HONORS, AWARDS, AND SOCIETIES**
+
 * Engineering Department Scholarship (2014 – 2016)   |   University of Washington, Engineering Department
+
 * Game Development Club (2015 – Present)   |   University of Washington
+
 * Society of Woman Engineers (SWE), Member (2014 – Present)   |   University of Washington
+
 * Osher Re-Entry Scholarship (2014 – 2015)   |   University of Washington, Bernard Osher Foundation
+
 * English Department Scholarship (2013 – 2014)   |   Bellevue College Foundation
+
 * Phi Theta Kappa Honors Society (2013 – 2014)   |   Bellevue College
