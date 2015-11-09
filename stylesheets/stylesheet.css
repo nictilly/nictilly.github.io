@@ -60,6 +60,10 @@ a {
   color: #403C3C;
   text-align: center;
   background: #e5dce5;
+  max-width: 980px;
+  margin: auto;
+  border: 3px solid;
+  border-color: #e5dce5;
 }
 
 @media screen and (min-width: 64em) {
@@ -75,7 +79,7 @@ a {
     padding: 2rem 1rem; } }
 
 .project-name {
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
@@ -208,7 +212,10 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
+	max-width: 980px;
+	margin: auto;
+	border: 3px solid;
+	border-color: #e5dce5;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
@@ -251,15 +258,18 @@ a {
 Changes to PURE Base
 *******************************************************************************/
 .pure-img {
-    max-width: 30px; 
-    max-height: 30px;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+	border: 6px solid;
 }
 
 .pure-menu.pure-menu-horizontal {
     white-space: normal;
+	max-width: 980px;
+	margin: auto;
+	border: 3px solid;
+	border-color: #e5dce5
 }
 
 .pure-menu-link {
