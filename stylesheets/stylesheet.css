@@ -318,6 +318,19 @@ Changes to PURE Base
  * of the mobile styles.
  */
  
+@media screen and (max-width: 480px) {
+    .pure-menu {
+        display: none;
+    }
+}
+ 
+@media screen and (max-width: 320px) {
+    .pure-menu {
+        display: none;
+    }
+}
+
+
 @media (min-width: 48em) {
 
     /* We can align the menu header to the left, but float the
