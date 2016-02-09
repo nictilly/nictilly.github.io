@@ -1,0 +1,46 @@
+body{
+	color:#AAA8A8;
+}
+.navbar{
+	color:#AAA8A8;
+	text-align:center;
+	max-width:320px;
+	padding-top:2em;
+}
+.navbar a{
+	text-decoration:none;
+	color:#AAA8A8;
+}
+.navbar h6{
+	transition: color 0.5s ease;
+	margin-bottom:.5em;
+}
+.navbar h6:hover{
+	color:#222222;
+}
+.navbar div.one{
+	width:80px !important;
+}
+#navArea{
+	border-bottom: #000000 1px solid;
+}
+#home{
+	color:#000000 !important;
+}
+#home:hover{
+	color:#000000;
+}
+#hero{
+	width:320px;
+	height:412px;
+	vertical-align: middle;
+	padding-top:2em;
+}
+#hero_container{
+	min-width:320px;
+	max-width:80;
+}
+#my_name{
+	display: inline-block !important;
+	color:#000000;
+}

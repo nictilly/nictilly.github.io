@@ -8,8 +8,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #AE98A3;
-  background: #212121;
+  /* color: #AE98A3; */
+  background: #f3f6fa;
 }
 
 a {
@@ -59,11 +59,11 @@ a {
 .page-header {
   color: #403C3C;
   text-align: center;
-  background: #e5dce5;
+  /* background: #e5dce5; */
   max-width: 980px;
   margin: auto;
-  border: 3px solid;
-  border-color: #e5dce5;
+  border-bottom: 3px solid;
+  border-color: black;
 }
 
 @media screen and (min-width: 64em) {
@@ -118,8 +118,8 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  color: #FFE0FF; }
+  /*font-weight: normal;
+  color: #FFE0FF; */ }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -214,8 +214,8 @@ a {
   .main-content {
 	max-width: 980px;
 	margin: auto;
-	border: 3px solid;
-	border-color: #e5dce5;
+	/* border: 3px solid;
+	border-color: #e5dce5; */
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
@@ -261,15 +261,15 @@ Changes to PURE Base
     display: block;
     margin-left: auto;
     margin-right: auto;
-	border: 6px solid;
+	/* border: 6px solid; */
 }
 
 .pure-menu.pure-menu-horizontal {
     white-space: normal;
 	max-width: 980px;
 	margin: auto;
-	border: 3px solid;
-	border-color: #e5dce5
+	border-bottom: 3px solid;
+	border-color: white;
 }
 
 .pure-menu-link {
