@@ -1,5 +1,8 @@
 body{
-	color:#AAA8A8;
+	color:#cccccc;
+	  min-width:320px;
+  max-width:1280px;
+  margin:0 auto;
 }
 .navbar{
 	color:#AAA8A8;

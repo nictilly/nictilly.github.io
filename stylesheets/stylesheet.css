@@ -9,7 +9,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* color: #AE98A3; */
-  background: #f3f6fa;
+  background: #cccccc;
+  min-width:320px;
+  max-width:1280px;
+  margin: 0 auto !important;
 }
 
 a {
@@ -266,7 +269,8 @@ Changes to PURE Base
 
 .pure-menu.pure-menu-horizontal {
     white-space: normal;
-	max-width: 980px;
+	max-width: 1280px;
+
 	margin: auto;
 	border-bottom: 3px solid;
 	border-color: white;
@@ -321,7 +325,18 @@ Changes to PURE Base
     border: none;
     color: white;
 }
+.container{
+  background-color:#f3f6fa;
+  max-width:1280px;
+  margin:0 auto;
 
+}
+.profile_img img{
+  min-width:320px;
+  max-width:455px;
+  width:100%;
+  height:auto;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
@@ -329,14 +344,29 @@ Changes to PURE Base
  */
  
 @media screen and (max-width: 480px) {
-    .pure-menu {
-        display: none;
+    .pure-menu-heading {
+      display:none !important;
+    }
+    .display_block{
+      display:block !important;
+    }
+
+    .pure-menu-item a{
+      padding:8px;
+      font-size:14px;
     }
 }
  
 @media screen and (max-width: 320px) {
-    .pure-menu {
-        display: none;
+    .pure-menu-heading {
+      display:none !important;
+    }
+    .display_block{
+      display:block !important;
+    }
+    .pure-menu-item a{
+      padding:8px;
+      font-size:14px;
     }
 }
 
