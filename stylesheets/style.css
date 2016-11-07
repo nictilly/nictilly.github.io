@@ -54,7 +54,50 @@ table {
 body * {
     font-family: 'Lato', sans-serif;
 }
+button {
+  position: relative;
+  //display:block;
+  height: 45px;
+  width: 150px;
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #383736;
+  border: 2px #383736 solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+.fill:hover {
+  color: whitesmoke;
+}
 
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #383736;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
 .clb {
     clear: both;
 }
@@ -65,7 +108,6 @@ body * {
     margin: 0 auto;
     box-sizing: border-box;
 }
-
 nav ul {
     float: right; 
     list-style-type: none; 
@@ -73,16 +115,22 @@ nav ul {
 
 nav ul li {
     float: left; 
-    margin-left: 20px;
+    margin-left: 16px;
 }
-
+nav ul li {
+    padding:14px 20px;
+}
+.active { 
+    background-color: #ccc !important;
+    border-radius:3px;
+}
 nav h1 {
     float: left;
 }
 
 nav {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -104,7 +152,6 @@ nav {
     padding-top: 32px;
     text-align: center;
     padding-bottom: 32px; 
-    border-bottom: 1px solid #ccc;
 }
 
 .theBox {
@@ -142,12 +189,88 @@ nav {
     float: none;
     margin-top: 12px;
 }
+/* ==============project css==================== */
+.project-wrapper{
+    width: 70%; 
+    display: block; 
+    margin: 0 auto;
+}
+.p-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    padding-bottom: 32px;    
+}
+.p-caption{
+    font-family: Georgia;
+    font-size: 14px;
+    font-style: italic;
+    color: #ccc;
+    text-align: left;
+    padding-bottom: 14px;
+}
+.s-title{
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-bottom: 14px;
+}
+.s-desc{
+    font-family: Georgia;
+    color: #555;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 14px;
+    line-height:18px;
+}
+.p-title-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.p-2-img{
+    width: 48%;
+    float: left;
+    margin-bottom:20px;
+}
+.p-2-img img{
+    width:100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    margin-bottom: 4px;
+}
+.last{
+    margin-left:4%;
+}
+.link-contain>a{
+    font-size: 90%;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;  
+    max-width:320px; 
+}
+a.work-link {
+    color:#000;
+    margin:10px 20px 0 0;
+    border:2px solid #000
+}
+a.work-link:hover{
+    color:#fff;
+    background:#000;
+    transition:.2s ease-in-out;
+}
 
 footer {
     padding: 16px; 
     font-size: 11px; 
     color: #999;
-    text-align: right;
+    text-align: right;  
+    border-top: 1px solid #ccc;
 }
 
 a {
@@ -182,14 +305,19 @@ a:hover {
 
 }
 
-
 @media all and (max-width: 499px) {
 
     .theBox {
         width: 98%;
         margin-bottom: 20px;
     }
-
+    .p-2-img {
+        width:98%;
+        margin-bottom:20px;
+    }
+    .last{
+        margin:0 auto;
+    }
     nav h1 {
         width: 100%;
         text-align: center; 

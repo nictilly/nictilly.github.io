@@ -1,11 +1,25 @@
 <html lang="en-us">
 <head>
-    <title>Nicole Tilly - OceanGate</title>
+    <title>Nicole Tilly - Work</title>
 
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+       $(function(){
+            // this will get the full URL at the address bar
+            var url = window.location.href; 
 
-    <script>
+            // passes on every "a" tag 
+            $("nav ul li a").each(function() {
+                    // checks if its the same on the address bar
+                if(url == (this.href)) { 
+                    $(this).closest("li").addClass("active");
+                }
+            });
+        });
+    </script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -29,74 +43,163 @@
         </ul>
         <div class="clb"></div>
     </nav>
-
-    <div class="aboutMe">
-        <p> Virtual OceanGate <br> IN PROGRESS
-        </p>
-        <img src="images/VisitorCenter - front.png">
-    </div>
-
     <div class="content">
-            <p>
+        <div class="project-wrapper">
+<!-- large center graphic with title and caption -->
+            <div>
+                <p class="p-title">Virtual OceanGate</p>
+                <img class="p-title-img" src="images/OceanGateVisitorCenter.png">
+                <p class="p-caption">Our submersible's home in Second Life</p>
 
-Summary: <br> 
+                <p class="s-title">Summary</p>
+                <p class="s-desc">Virtual OceanGate is a digital replica of an OceanGate manned submersible, 
+                    created in the Second Life virtual world. The purpose of this project was to demonstrate 
+                    how immersive virtual environments can be used to educate, train, and inspire people about 
+                    real world tools and their applications.</p>
+            </div> 
 
-<br>Virtual OceanGate is a digital replica of an OceanGate manned submersible, 
-created in the Second Life virtual world. The purpose of this project was to 
-demonstrate how immersive virtual environments can be used to educate, train, 
-and inspire people about real world tools and their applications.  <br> 
+<!-- ==================================================================================================== -->
+<!-- 2 image section with caption -->
+            <div class="p-2-img">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">The real OceanGate Cyclops 1</p>
+            </div> 
+            <div class="p-2-img last">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">Our virtual Cyclops 1</p>
+            </div> 
+<!-- /2 image section with caption -->
+            <div>
+             <p class="s-title">My Role</p>
+                <p class="s-desc">My role was experience producer, content writer, and presenter. I 
+                    collaborated with 3D artists, coders, video producers, and front-end developers 
+                    who helped bring the project and our video presentation to life.</p>
+            </div> 
 
- <br> My role  <br> 
-My role was experience producer, content writer, and presenter, and I collaborated
- with 3D artists, coders, video producers, and front-end developers who helped 
- bring the project and our video presentation to life. <br>
 
- 
- <br> Why does this matter? <br> 
-<br> Sending people out in submersibles for training and demonstration purposes is a 
-time-consuming and expensive process. With an effective virtual simulation, OceanGate 
-could reduce the costs of training, create better-prepared pilots, and more closely monitor 
-which areas of preparedness need attention before high-stakes missions in the physical ocean. <br>
+            <div>
+                <p class="s-title">Why Does This Matter?</p>
+                <p class="s-desc">Sending people out in submersibles for training and demonstration 
+                    purposes is a time-consuming and expensive process. With an effective virtual 
+                    simulation, OceanGate could reduce the costs of training, create better-prepared 
+                    pilots, and closely monitor which areas of preparedness need attention 
+                    before high-stakes ocean missions.</p>
+            </div> 
 
- <br> Our Methods: <br> 
-<br> As an experience producer and content writer, it was up to me to figure out how to 
-make our teaching tool both engaging and educational. Because this was a class on Immersive 
-Environments, I first chose to narrow down some key factors of immersion that we would want 
-to build as our minimum viable presentation. <br>
+<!-- 2 image section with caption -->
+            <div class="p-2-img">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">Real-world missions with the Cyclops 1 require a transport
+                    ship and a team of experts.</p>
+            </div> 
+            <div class="p-2-img last">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">In Second Life, it only takes one person to move the
+                submersible from land to water.</p>
+            </div> 
+<!-- /2 image section with caption -->
 
-<br> According to Bailenson and Scarborough (2014), the three characteristics of virtual 
-presence are self-presence, social presence, and spatial presence. In other words, to make 
-someone feel virtually immersed, we would have to ensure that users maintained their sense 
-of self while in our submersible, create a rich world with sound and visual artifacts on all 
-sides, and give users a social framework in which to feel like what they did and said mattered. <br>
+            <div>
+             <p class="s-title">Design Process</p>
+                <p class="s-desc">As experience producer and content writer, it was up to me to figure
+                     out how to make our teaching tool both engaging and educational. <br>
 
-<br> Spatial and self-presence were built into our digital, controllable submersible as an 
-artifact, but social presence and engagement among 40 audience-members was harder to engineer. <br>
+                    I used a combination of competitive analysis (what makes other games engaging?) 
+                    and academic literature review to pick out the key factors we wanted to include in 
+                    our virtual experience. </p>
+            </div>
 
-<br>Here, I took inspiration from other games and HCI papers I’d had exposure to and proposed 
-that we gamify the Virtual OceanGate experience by adding rewards for finding key environmental 
-artifacts, for exploring certain areas first, and by adding a high-stakes story to the 
-demonstration. <br> 
+<!-- 2 image section with caption -->
+            <div class="p-2-img">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">Create a feeling of presence</p>
+            </div> 
+            <div class="p-2-img last">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+                <p class="p-caption">Storytelling is important</p>
+            </div> 
+<!-- /2 image section with caption -->
 
- <br> [insert picture here of me and others in submersible] <br> 
+            <div>
+            <p class="s-desc">Our most important task was to get our prototype up and running, but we knew 
+                    we would only be able to include a few participants in the first deep dive during 
+                    our presentation. To keep the other 30+ onlookers engaged, we also had to include 
+                    a compelling narrative for our submersible. As OceanGate submersibles are used for 
+                    high-stakes missions in the real world, we chose to mirror that OceanGate in 
+                    Second Life. </p>
+            </div> 
 
- <br> Outcome: <br> 
-[Pictures with descriptions <br> 
-[Videos] <br> 
-Feedback [add pictures] </p>
+            <div>
+                <p class="s-title">The Final Design </p>
+                <p class="s-desc"> Our Presentation was a huge success! About 30  people showed up in 
+                    Second Life, with about 10 more watching from our classroom chat program, SoCoCo. <br>
+                    Here are the design highlights: </p>
+            </div> 
 
-<p> <br>Visit our project in Second Life to try out the submersible at
-<a href="http://maps.secondlife.com/secondlife/UW%20Avalumni/248/200/22/"> this
-SLURL!</a> </p>
+           <div style="clear:both;"></div>
+<!-- image + text right 2 col -->
+            <div class="p-2-img">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+            </div> 
+            <div class="p-2-img last">
+                <p class="s-title">Presence</p>
+                <p class="s-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div> 
+<!-- /image + text right 2 col -->
+            <div style="clear:both;"></div>
+<!-- image + text right 2 col --> 
+            <div class="p-2-img">
+                <p class="s-title">Gamification</p>
+                <p class="s-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div> 
+            <div class="p-2-img last">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+            </div>
+<!-- /image + text right 2 col -->
+            <div style="clear:both;"></div>
+<!-- image + text right 2 col -->
+            <div class="p-2-img">
+                <img class="p-2-img" src="http://placehold.it/600x300">
+            </div> 
+            <div class="p-2-img last">
+                <p class="s-title">Storytelling</p>
+                <p class="s-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div> 
+<!-- /image + text right 2 col -->
+            <div style="clear:both;"></div>
 
-<p>Learn more about OceanGate at <a href="http://www.oceangate.com">their offical website.</a></p>
+            <div>
+                <p class="s-title">The Official Video</p>
+                <p class="s-desc">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YF7NUCXZPss" frameborder="0" allowfullscreen></iframe>
+            </div> 
 
-<p>See our <a href="http://www.oceangate.tech">project website here.</a> </p>
+            <div>
+                <p class="s-title">Feedback</p>
+                <p class="s-desc">
+                    Here is some of the feedback we got:
+                    [screenshots from james reichert on FB]
+                    [Quotes from Chris Saranson and Randy Heinrichs]
+                    [Quotes from classmates]
+                    And to top it off, our 3D modeler and scripter was invited 
+                    to Oceans conference to talk about the work we did and it’s broader applications to ocean education!
+                    [photo of mano there, here] </p>
+            </div>             
+
+<!-- button -->
+            <div class="link-contain">
+                <a href="http://maps.secondlife.com/secondlife/UW%20Avalumni/248/200/22/" class="work-link">Visit Our Project in Second Life</a>
+            </div>
+            <div class="link-contain">
+                <a href="http://www.oceangate.com/" class="work-link">Learn More About OceanGate</a>
+            </div>
+            <div class="link-contain">
+                <a href="http://www.oceangate.tech/" class="work-link">Our Official Project Website</a>
+            </div>
+<!-- /button -->
         </div>
-
-        <div style="clear:both;"></div>
     </div>
-
+    <div style="clear:both;"></div>
     <footer>
         <a href="https://medium.com/@nicoletilly"><i class="fa fa-medium"></i> Medium </i></a> |
         <a href="https://www.linkedin.com/in/nicoletilly"<i class="fa fa-linkedin"></i> LinkedIn </i></a> | 
