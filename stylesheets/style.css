@@ -207,7 +207,7 @@ nav {
     font-family: Georgia;
     font-size: 14px;
     font-style: italic;
-    color: #ccc;
+    color: #6c6c6c;
     text-align: left;
     padding-bottom: 14px;
 }
@@ -219,13 +219,21 @@ nav {
     text-align: left;
     padding-bottom: 14px;
 }
+.s-title-sm{
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-bottom: 14px;
+}
 .s-desc{
     font-family: Georgia;
     color: #555;
     font-size: 16px;
     text-align: left;
-    padding-bottom: 14px;
-    line-height:18px;
+    padding-bottom: 24px;
+    line-height:20px;
 }
 .p-title-img{
     width: 100%;
