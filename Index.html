@@ -1,80 +1,103 @@
-<!DOCTYPE html>
-<html lang = "en">
+<html lang="en-us">
+<head>
+    <title>Nicole Tilly - Work</title>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+       $(function(){
+            // this will get the full URL at the address bar
+            var url = window.location.href; 
 
-	<!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
-	<![endif]-->
-	
-	<!--[if gt IE 8]><!-->
-		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-	<!--<![endif]-->
+            // passes on every "a" tag 
+            $("nav ul li a").each(function() {
+                    // checks if its the same on the address bar
+                if(url == (this.href)) { 
+                    $(this).closest("li").addClass("active");
+                }
+            });
+        });
+    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
-    <![endif]-->
-	
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/pricing.css">
-    <!--<![endif]-->
-  
-	
-    <meta name="description" content="Nicole Tilly : Research, Design, Engineer">
+  ga('create', 'UA-73959333-1', 'auto');
+  ga('send', 'pageview');
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+</script>
 
-    <title>Nicole Tilly</title>
-	
-  </head>
+</head>
+<body>
 
-  <body>
-  <div class="pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading">Nicole Tilly</a>
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Resume</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
-		 <li class="pure-menu-item"><a href="#" class="pure-menu-link">Process</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
-    </ul>
+<div id="container">
+    <nav>
+        <h1>Nicole Tilly</h1>
+        <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+        <div class="clb"></div>
+    </nav>
+
+    <div class="aboutMe">
+        <p>Welcome to my portfolio! Learn more about my research and design
+            process in the projects below. 
+           </p>
+    </div>
+
+    <div class="content">
+        <div class="theBox">
+            <a href="oceangate.html">
+            <h2>Virtual OceanGate</h2>
+            <img src="images/OceanGateVirtual2.png">
+            <p> A manned OceanGate submersible replicated in the Second Life virtual world.</p> 
+            </a>
+        </div>
+
+        <div class="theBox">
+            <a href="rei.html">
+            <h2>REI Reservations</h2>
+            <img src="images/REIReservations01.png">
+            <p>A concierge service which enables REI customers to get expert help on their own time.</p>
+            </a>
+        </div>
+
+        <div class="theBox">
+            <a href="repair.html">
+            <h2>Re-Pair Research</h2>
+            <img src="images/sewing.jpg">
+            <p>An exploratory research project resulting in a published paper about workshops as a research method.</p>
+            </a>
+        </div>
+
+        <div class="clb"></div>
+
+        <div class="theBox lastBox">
+            <a href="natdis.html">
+            <h2>Natural Disaster Data Visualizations</h2>
+            <img src="images/nd_map.jpg">
+            <p>An interactive data visualization to help researchers explore natural disaster data throughout the world.</p>
+            </a>
+        </div>
+
+        <div style="clear:both;"></div>
+    </div>
+
+    <footer>
+        <a href="https://medium.com/@nicoletilly"><i class="fa fa-medium"></i> Medium </i></a> |
+        <a href="https://www.linkedin.com/in/nicoletilly"<i class="fa fa-linkedin"></i> LinkedIn </i></a> | 
+        <a href="https://twitter.com/nic_tilly"<i class="fa fa-twitter" aria-hidden="true"></i> Twitter </i></a> |
+        <a href="mailto:nictilly@gmail.com"<i class="fa fa-envelope" aria-hidden="true"></i> Contact </i></a> |  
+
+    </footer>
 </div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">Nicole Tilly</h1>
-          <h2 id="project_tagline">Design, Research, Engineer</h2>
 
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a id="welcome-to-my-page" class="anchor" href="#welcome-to-my-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to My Page</h3>
-
-<p>I'm an undergraduate student at the University of Washington, currently majoring in Human-Centered Design (HCDE) and Engineering with a focus on Human-Computer Interaction (HCI) </p>
-
-<h3>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h3>
-
-<p><a href="mailto:nictilly@gmail.com">nictilly@gmail.com</a></p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-      </footer>
-    </div>
-
-    
-
-  </body>
+</body>
 </html>
